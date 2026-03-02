@@ -7,6 +7,8 @@ The application allows users to perform full **CRUD operations** along with **Se
 
 The system follows **MVC architecture** and uses **MS SQL Server** as the database.
 
+**Project Location:** All code is inside the `Tasks` folder.
+
 ---
 
 2. Technologies Used
