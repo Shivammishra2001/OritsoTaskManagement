@@ -98,6 +98,14 @@ CREATE TABLE Tasks (
     UpdatedById INT NULL
 );
 
+4.5 ER Diagram
+
+<img width="1536" height="1024" alt="ER Diagram" src="https://github.com/user-attachments/assets/84a04cf9-08e4-4cc4-8708-00dcb28d0e28" />
+
+
+![Tasks ER Diagram](Tasks_ER_Diagram.png)
+
+
 5. Application Structure
 
 - **MVC Pattern**  
