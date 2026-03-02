@@ -83,7 +83,6 @@ Task Table contains:
 
 4.5 SQL Table Creation Script
 
-SQL Create Query
 CREATE TABLE Tasks (
     Id INT PRIMARY KEY IDENTITY(1,1),
     Title NVARCHAR(200) NOT NULL,
