@@ -1,0 +1,30 @@
+﻿@model OritsoTaskManagement.Models.TaskItem
+
+@{
+    ViewData["Title"] = "Task Details";
+}
+
+<h2>Task Details</h2>
+
+<div class="card">
+    <div class="card-body">
+
+        <p><strong>Title:</strong> @Model.Title</p>
+
+        <p><strong>Description:</strong> @Model.Description</p>
+
+        <p><strong>Due Date:</strong> @Model.DueDate.ToShortDateString()</p>
+
+        <p><strong>Status:</strong> @Model.Status</p>
+
+        <p><strong>Remarks:</strong> @Model.Remarks</p>
+
+        <p><strong>Created On:</strong> @Model.CreatedOn</p>
+
+        <p><strong>Updated On:</strong> @Model.UpdatedOn</p>
+
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+
+    </div>
+</div>
