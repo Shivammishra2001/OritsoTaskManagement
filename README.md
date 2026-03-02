@@ -97,6 +97,7 @@ CREATE TABLE Tasks (
     UpdatedByName NVARCHAR(100) NULL,
     UpdatedById INT NULL
 );
+
 5. Application Structure
 
 - **MVC Pattern**  
